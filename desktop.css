@@ -1,0 +1,75 @@
+@media only screen and (min-width: 961px) {
+  header {
+    width: 960px;
+    margin: 0 auto; }
+  main {
+    width: 960px; }
+  .inner {
+    width: 960px;
+    margin: 1px auto; }
+    .inner button {
+      display: none; }
+  .logo {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 50px 30px 50px 0;
+    text-align: center; }
+  nav {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 30px; }
+    nav a {
+      display: inline-block;
+      text-transform: uppercase;
+      margin: 10px;
+      text-decoration: none;
+      color: #222; }
+    nav span {
+      text-transform: lowercase;
+      display: block;
+      color: #888; }
+  .social_media {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 70px; }
+  .col1,
+  .col2,
+  .col3,
+  .col4 {
+    /*padding: 12px;*/
+    vertical-align: top; }
+  .col1 {
+    width: 25%; }
+  .col2 {
+    width: 50%; }
+  .col3 {
+    width: 75%; }
+  .col4 {
+    width: 100%; }
+  .img_main {
+    float: left;
+    height: 320px;
+    width: 456px;
+    margin: 12px; }
+  .img_small {
+    float: left;
+    vertical-align: top;
+    height: 148px;
+    width: 216px;
+    margin: 12px; }
+  .projects li {
+    margin: 20px 0;
+    display: block; }
+  .box {
+    float: left;
+    vertical-align: top;
+    height: 148px;
+    width: 25%;
+    display: block; }
+  .bottom {
+    width: 960px;
+    margin: 30px auto; }
+    .bottom .bottom article {
+      display: inline-block; }
+  footer {
+    height: 500px; } }

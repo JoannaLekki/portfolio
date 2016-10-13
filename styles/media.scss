@@ -1,0 +1,126 @@
+@import "components.scss";
+@import 'https://fonts.googleapis.com/css?family=Lato';
+//@import "bootstrap/css/bootstrap";
+
+nav{
+  margin:0 auto;
+  display: inline-block;
+  width: 100%;
+  span {
+    text-align: right;
+    font: normal 14px 'Lato', sans-serif;
+    color: #333;
+    vertical-align: top;
+    margin:0;
+    padding-right: 30px;
+  }
+}
+
+
+  .start {
+    text-align: center;
+    margin: 20% 0;
+    h1 {
+      font-family: 'Lato', sans-serif;
+      font-size: 80px;
+      color: #00FFD4;
+      margin: 20px;
+    }
+    p {
+      font: 100 20px 'Lato', sans-serif;
+      color: #333;
+      text-transform: uppercase;
+      letter-spacing: 12px;
+    }
+  }
+
+
+  .gallery{
+    margin:0 auto;
+    display: inline-block;
+
+
+    .teaser {
+      width: 60%;
+      margin: auto;
+    }
+  img{
+    width:60%;
+    height: auto;
+    display: inline-block;
+    float:right;
+  }
+    img:hover{
+      opacity: 0.5;
+    }
+    div{
+      padding: 20px 20px 50px 20px;
+    }
+    p {
+      font: 100 15px/1.5 'Lato', sans-serif;
+      letter-spacing: 2px;
+      color: #666;
+      padding-bottom: 15px;
+      vertical-align: top;
+      height:300px;
+      width: 25%;
+    }
+  }
+a {
+  text-decoration: none;
+  background-color: #fff;
+  padding: 15px;
+  color: #000;
+  text-decoration: none;
+  font: 100 15px/1.5 'Lato', sans-serif;
+}
+
+a:hover{
+  color: #00FFD4;
+}
+
+h2{
+  font: normal 40px 'Lato', sans-serif;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  padding-bottom: 20px;
+  vertical-align: top;
+}
+
+
+
+  .contact {
+    text-align: center;
+    margin: 5%;
+    p {
+        font: 100 14px 'Lato', sans-serif;
+        color: #333;
+        vertical-align: top;
+        margin:10px;
+      }
+  }
+
+  .next,
+  .prev {
+    background-color: #fff;
+    padding: 15px;
+    color: #000;
+    text-decoration: none;
+    font: 100 15px/1.5 'Lato', sans-serif;
+    letter-spacing: 2px;
+    position: absolute;
+    top:50%;
+  }
+.next{
+  right:5%;
+}
+
+.prev{
+  left:5%;
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
