@@ -6,13 +6,16 @@ nav{
   margin:0 auto;
   display: inline-block;
   width: 100%;
+  margin-left: 30px;
+  position: fixed;
+  top: 15px;
   span {
     text-align: right;
     font: normal 14px 'Lato', sans-serif;
     color: #333;
     vertical-align: top;
-    margin:0;
-    padding-right: 30px;
+    margin:0 auto;
+    padding-right: 20px;
   }
 }
 
@@ -20,13 +23,14 @@ nav{
   .start {
     text-align: center;
     margin: 20% 0;
+
     h1 {
       font-family: 'Lato', sans-serif;
       font-size: 80px;
       color: #00FFD4;
       margin: 20px;
     }
-    p {
+    h3 {
       font: 100 20px 'Lato', sans-serif;
       color: #333;
       text-transform: uppercase;
@@ -35,92 +39,140 @@ nav{
   }
 
 
-  .gallery{
+  .gallery {
+    width: 70%;
     margin:0 auto;
-    display: inline-block;
 
+    .project_1 {
 
-    .teaser {
-      width: 60%;
-      margin: auto;
+      .teaser {
+        //clear: both;
+        display: flex;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+      }
+      img:hover {
+        opacity: 0.5;
+      }
+      div {
+        display: inline-block;
+        padding: 20px 20px 20px 20px;
+      }
+      .right {
+        float: right;
+        width: 40%;
+      }
+      .left {
+        float: left;
+        width: 50%;
+      }
     }
-  img{
-    width:60%;
-    height: auto;
-    display: inline-block;
-    float:right;
   }
-    img:hover{
-      opacity: 0.5;
+
+    .project_2 {
+
+      .teaser {
+        //clear: both;
+        display: flex;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+      }
+      img:hover {
+        opacity: 0.5;
+      }
+      div {
+        display: inline-block;
+        padding: 20px 20px 20px 20px;
+      }
+      .right {
+        float: right;
+        width: 50%;
+      }
+      .left {
+        float: left;
+        width: 40%;
+      }
     }
-    div{
-      padding: 20px 20px 50px 20px;
-    }
-    p {
-      font: 100 15px/1.5 'Lato', sans-serif;
-      letter-spacing: 2px;
-      color: #666;
-      padding-bottom: 15px;
-      vertical-align: top;
-      height:300px;
-      width: 25%;
-    }
-  }
-a {
-  text-decoration: none;
-  background-color: #fff;
-  padding: 15px;
-  color: #000;
-  text-decoration: none;
-  font: 100 15px/1.5 'Lato', sans-serif;
-}
-
-a:hover{
-  color: #00FFD4;
-}
-
-h2{
-  font: normal 40px 'Lato', sans-serif;
-  color: #333;
-  text-transform: uppercase;
-  letter-spacing: 12px;
-  padding-bottom: 20px;
-  vertical-align: top;
-}
 
 
+    .contact {
+      text-align: center;
+      margin: 15% 0 20% 0;
+      border-bottom: solid 1px #c0c0c0;
+      padding-bottom: 15%;
+      border-top: solid 1px #c0c0c0;
+      padding-top: 15%;
 
-  .contact {
-    text-align: center;
-    margin: 5%;
-    p {
+      span {
         font: 100 14px 'Lato', sans-serif;
         color: #333;
+        display: block;
         vertical-align: top;
-        margin:10px;
+        margin: 10px;
       }
-  }
+    }
 
-  .next,
-  .prev {
-    background-color: #fff;
-    padding: 15px;
-    color: #000;
-    text-decoration: none;
+
+    .next,
+    .prev {
+      background-color: #fff;
+      padding: 15px;
+      color: #000;
+      text-decoration: none;
+      font: 100 15px/1.5 'Lato', sans-serif;
+      letter-spacing: 2px;
+      position: absolute;
+      top: 50%;
+    }
+    .next {
+      right: 5%;
+    }
+
+    .prev {
+      left: 5%;
+    }
+    .close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+
+.preview {
+  margin: 0 auto;
+  width: 70%;
+
+  p {
     font: 100 15px/1.5 'Lato', sans-serif;
     letter-spacing: 2px;
-    position: absolute;
-    top:50%;
+    color: #666;
+    padding-bottom: 15px;
+    vertical-align: top;
+    width: 100%;
   }
-.next{
-  right:5%;
 }
 
-.prev{
-  left:5%;
+.img_huge {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
 }
-.close {
-  position: absolute;
-  top: 10px;
-  right: 10px;
+
+.contact {
+  text-align: center;
+  margin: 5%;
+  span {
+    font: 100 14px 'Lato', sans-serif;
+    color: #333;
+    display: block;
+    vertical-align: top;
+    margin: 10px;
+  }
 }

@@ -7,9 +7,40 @@
   right: 0;
   bottom: 0; }
   #overlay img {
-    width: 900px;
+    width: 1200px;
     height: auto;
     margin: 5% auto;
     display: block; }
   #overlay:target {
     display: block; }
+
+h2 {
+  font: normal 40px 'Lato', sans-serif;
+  color: #333333;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 12px;
+  vertical-align: top;
+  display: inline-block; }
+
+a {
+  text-decoration: none;
+  background-color: #fff;
+  padding: 15px;
+  text-decoration: none;
+  font: 100 15px/1.5 'Lato', sans-serif; }
+
+a:hover h2,
+a:hover p {
+  color: #00FFD4; }
+
+a:hover img {
+  opacity: 0.5; }
+
+p {
+  font: 100 13px/1.5 'Lato', sans-serif;
+  letter-spacing: 2px;
+  color: #666;
+  padding-bottom: 15px;
+  vertical-align: top;
+  display: inline-block; }
