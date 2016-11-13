@@ -1,34 +1,44 @@
 @import "components.scss";
 @import 'https://fonts.googleapis.com/css?family=Lato';
-//@import "bootstrap/css/bootstrap";
+@import "mobile.scss";
+@import "tablet.scss";
 
-nav{
-  margin:0 auto;
-  display: inline-block;
-  width: 100%;
-  margin-left: 30px;
-  position: fixed;
-  top: 15px;
-  span {
-    text-align: right;
-    font: normal 14px 'Lato', sans-serif;
-    color: #333;
-    vertical-align: top;
-    margin:0 auto;
-    padding-right: 20px;
+@media only screen and (min-width: 1275px) {
+
+  nav {
+    margin: 0 auto;
+    display: inline-block;
+    width: 100%;
+    position: fixed;
+    top: 3%;
+    left: 1%;
+    height: 5%;
+
+
+    span {
+      text-align: right;
+      font: normal 15px 'Lato', sans-serif;
+      color: #888;
+      vertical-align: top;
+      margin: 0 auto;
+      padding-right: 5px;
+      padding-top: 15px;
+    }
+    span:hover {
+      color: #00FFD4;
+    }
   }
-}
-
 
   .start {
     text-align: center;
-    margin: 20% 0;
+    margin: 40vh 0;
 
     h1 {
       font-family: 'Lato', sans-serif;
       font-size: 80px;
       color: #00FFD4;
       margin: 20px;
+      letter-spacing: 12px;
     }
     h3 {
       font: 100 20px 'Lato', sans-serif;
@@ -38,10 +48,9 @@ nav{
     }
   }
 
-
   .gallery {
-    width: 70%;
-    margin:0 auto;
+    width: 60%;
+    margin: 0 auto;
 
     .project_1 {
 
@@ -55,12 +64,9 @@ nav{
         height: auto;
         display: inline-block;
       }
-      img:hover {
-        opacity: 0.5;
-      }
       div {
         display: inline-block;
-        padding: 20px 20px 20px 20px;
+        padding: 20px 10px
       }
       .right {
         float: right;
@@ -73,106 +79,144 @@ nav{
     }
   }
 
-    .project_2 {
+  .project_2 {
 
-      .teaser {
-        //clear: both;
-        display: flex;
-      }
-
-      img {
-        width: 100%;
-        height: auto;
-        display: inline-block;
-      }
-      img:hover {
-        opacity: 0.5;
-      }
-      div {
-        display: inline-block;
-        padding: 20px 20px 20px 20px;
-      }
-      .right {
-        float: right;
-        width: 50%;
-      }
-      .left {
-        float: left;
-        width: 40%;
-      }
+    .teaser {
+      //clear: both;
+      display: flex;
     }
 
-
-    .contact {
-      text-align: center;
-      margin: 15% 0 20% 0;
-      border-bottom: solid 1px #c0c0c0;
-      padding-bottom: 15%;
-      border-top: solid 1px #c0c0c0;
-      padding-top: 15%;
-
-      span {
-        font: 100 14px 'Lato', sans-serif;
-        color: #333;
-        display: block;
-        vertical-align: top;
-        margin: 10px;
-      }
+    img {
+      width: 100%;
+      height: auto;
+      display: inline-block;
     }
-
-
-    .next,
-    .prev {
-      background-color: #fff;
-      padding: 15px;
-      color: #000;
-      text-decoration: none;
-      font: 100 15px/1.5 'Lato', sans-serif;
-      letter-spacing: 2px;
-      position: absolute;
-      top: 50%;
+    div {
+      display: inline-block;
+      padding: 20px 10px;
     }
-    .next {
-      right: 5%;
+    .right {
+      float: right;
+      width: 50%;
     }
-
-    .prev {
-      left: 5%;
+    .left {
+      float: left;
+      width: 40%;
     }
-    .close {
-      position: absolute;
-      top: 10px;
-      right: 10px;
+  }
+
+  .contact {
+    text-align: center;
+    margin: 15% 0 20% 0;
+    border-bottom: solid 1px #c0c0c0;
+    padding-bottom: 15%;
+    border-top: solid 1px #c0c0c0;
+    padding-top: 25vh;
+
+    span {
+      font: 100 14px 'Lato', sans-serif;
+      color: #333;
+      display: block;
+      vertical-align: top;
+      margin: 10px;
     }
+  }
 
-.preview {
-  margin: 0 auto;
-  width: 70%;
-
-  p {
+  .next,
+  .prev {
+    background-color: #fff;
+    padding: 15px;
+    color: #000;
+    text-decoration: none;
     font: 100 15px/1.5 'Lato', sans-serif;
     letter-spacing: 2px;
-    color: #666;
-    padding-bottom: 15px;
-    vertical-align: top;
-    width: 100%;
+    position: absolute;
+    top: 50%;
   }
-}
+  .next {
+    right: 5%;
+  }
 
-.img_huge {
-    width: 90%;
-    height: auto;
+  .prev {
+    left: 5%;
+  }
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 5%;
+    font: 100 20px/1.5 'Lato', sans-serif;
+  }
+
+  .preview {
     margin: 0 auto;
-}
+    width: 70%;
 
-.contact {
-  text-align: center;
-  margin: 5%;
-  span {
-    font: 100 14px 'Lato', sans-serif;
-    color: #333;
-    display: block;
-    vertical-align: top;
-    margin: 10px;
+    .description {
+      font: 100 15px/1.5 'Lato', sans-serif;
+      letter-spacing: 2px;
+      color: #666;
+      padding-bottom: 15px;
+      vertical-align: top;
+      width: 80%;
+    }
   }
-}
+
+  .img_huge {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-bottom: 20px;
+  }
+
+  .images {
+    margin: auto;
+    border-bottom: solid 1px #c0c0c0;
+    padding-bottom: 15%;
+
+    h2 {
+      padding-top: 10vh;
+      width: 50%;
+    }
+
+    p {
+      width: 80%;
+      vertical-align: bottom;
+      padding-bottom: 30px;
+    }
+    span {
+      font: 100 12px 'Lato', sans-serif;
+      color: #b3b3b3;
+      vertical-align: top;
+      margin: 20px;
+    }
+    div {
+      padding: 20px 20px 20px 20px;
+    }
+    .content {
+      //text-align: center;
+    }
+    a {
+      padding: 0;
+    }
+    //a:hover + span {
+    //  display: inline-block;
+    }
+  }
+
+  .contact {
+    text-align: center;
+    margin: 5%;
+    span {
+      font: 100 14px 'Lato', sans-serif;
+      color: #333;
+      display: block;
+      vertical-align: top;
+      margin: 10px;
+    }
+
+    a {
+      text-decoration: none;
+      padding: 15px;
+      color: #222;
+    }
+  }
