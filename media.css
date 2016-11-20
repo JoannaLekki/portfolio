@@ -29,6 +29,14 @@ h2 {
   vertical-align: top;
   display: inline-block; }
 
+h3 {
+  font: normal 16px 'Lato', sans-serif;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  vertical-align: top;
+  display: inline-block; }
+
 a {
   text-decoration: none;
   padding: 15px;
@@ -161,8 +169,7 @@ p {
     margin: auto; }
   .images {
     margin: auto;
-    border-bottom: solid 1px #c0c0c0;
-    padding-bottom: 15%; }
+    padding-bottom: 5%; }
     .images h2 {
       padding-top: 10vh;
       width: 50%; }
@@ -174,14 +181,17 @@ p {
       font: 100 12px 'Lato', sans-serif;
       color: #b3b3b3;
       vertical-align: top;
-      display: none;
       margin: 10px; }
     .images div {
       padding: 20px 20px 20px 20px; }
     .images a {
       padding: 0; }
-    .images a:hover + span {
-      display: inline-block; }
+  .project_next {
+    text-align: right;
+    margin: 2% 10% 0 0; }
+    .project_next a:hover,
+    .project_next h3:hover {
+      color: #00FFD4; }
   .contact {
     text-align: center;
     margin: 5%; }
@@ -306,8 +316,7 @@ p {
     margin: auto; }
   .images {
     margin: auto;
-    border-bottom: solid 1px #c0c0c0;
-    padding-bottom: 15%; }
+    padding-bottom: 5%; }
     .images h2 {
       padding-top: 10vh;
       width: 50%; }
@@ -319,23 +328,26 @@ p {
       font: 100 12px 'Lato', sans-serif;
       color: #b3b3b3;
       vertical-align: top;
-      display: none;
       margin: 10px; }
     .images div {
       padding: 20px 20px 20px 20px; }
     .images a {
       padding: 0; }
-    .images a:hover + span {
-      display: inline-block; }
-  .contact {
-    text-align: center;
-    margin: 5%; }
-    .contact span {
-      font: 100 14px 'Lato', sans-serif;
-      color: #333;
-      display: block;
-      vertical-align: top;
-      margin: 10px; } }
+    .images .project_next {
+      text-align: right;
+      margin: 2% 10% 0 0; }
+      .images .project_next a:hover,
+      .images .project_next h3:hover {
+        color: #00FFD4; }
+    .images .contact {
+      text-align: center;
+      margin: 5%; }
+      .images .contact span {
+        font: 100 14px 'Lato', sans-serif;
+        color: #333;
+        display: block;
+        vertical-align: top;
+        margin: 10px; } }
 
 @media only screen and (min-width: 1275px) {
   nav {
@@ -452,8 +464,7 @@ p {
     padding-bottom: 20px; }
   .images {
     margin: auto;
-    border-bottom: solid 1px #c0c0c0;
-    padding-bottom: 15%; }
+    padding-bottom: 5%; }
     .images h2 {
       padding-top: 10vh;
       width: 50%; }
@@ -471,6 +482,13 @@ p {
     .images a {
       padding: 0; } }
 
+.project_next {
+  text-align: right;
+  margin: 2% 10% 5% 0; }
+  .project_next a:hover,
+  .project_next h3:hover {
+    color: #00FFD4; }
+
 .contact {
   text-align: center;
   margin: 5%; }
@@ -480,7 +498,3 @@ p {
     display: block;
     vertical-align: top;
     margin: 10px; }
-  .contact a {
-    text-decoration: none;
-    padding: 15px;
-    color: #222; }

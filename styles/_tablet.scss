@@ -90,10 +90,9 @@
     }
     .left {
       width: 50%;
-      float:left;
+      float: left;
     }
   }
-
 
   h2 {
     font: normal 26px 'Lato', sans-serif;
@@ -102,7 +101,6 @@
   p {
     letter-spacing: 1px;
   }
-
 
   .contact {
     text-align: center;
@@ -167,8 +165,7 @@
 
   .images {
     margin: auto;
-    border-bottom: solid 1px #c0c0c0;
-    padding-bottom: 15%;
+    padding-bottom: 5%;
 
     h2 {
       padding-top: 10vh;
@@ -184,7 +181,6 @@
       font: 100 12px 'Lato', sans-serif;
       color: #b3b3b3;
       vertical-align: top;
-      display: none;
       margin: 10px;
     }
     div {
@@ -195,21 +191,28 @@
     }
     a {
       padding: 0;
-    }
-    a:hover + span {
-      display: inline-block;
-    }
-  }
 
-  .contact {
-    text-align: center;
-    margin: 5%;
-    span {
-      font: 100 14px 'Lato', sans-serif;
-      color: #333;
-      display: block;
-      vertical-align: top;
-      margin: 10px;
+    }
+
+    .project_next {
+      text-align: right;
+      margin: 2% 10% 0 0;
+
+      a:hover,
+      h3:hover {
+        color: #00FFD4;
+      }
+    }
+    .contact {
+      text-align: center;
+      margin: 5%;
+      span {
+        font: 100 14px 'Lato', sans-serif;
+        color: #333;
+        display: block;
+        vertical-align: top;
+        margin: 10px;
+      }
     }
   }
 }

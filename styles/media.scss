@@ -170,8 +170,7 @@
 
   .images {
     margin: auto;
-    border-bottom: solid 1px #c0c0c0;
-    padding-bottom: 15%;
+    padding-bottom: 5%;
 
     h2 {
       padding-top: 10vh;
@@ -203,6 +202,15 @@
     }
   }
 
+.project_next {
+  text-align: right;
+  margin: 2% 10% 5% 0;
+
+  a:hover,
+  h3:hover {
+    color: #00FFD4;
+  }
+}
   .contact {
     text-align: center;
     margin: 5%;
@@ -214,9 +222,4 @@
       margin: 10px;
     }
 
-    a {
-      text-decoration: none;
-      padding: 15px;
-      color: #222;
-    }
   }

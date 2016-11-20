@@ -28,6 +28,14 @@ h2 {
   vertical-align: top;
   display: inline-block; }
 
+h3 {
+  font: normal 16px 'Lato', sans-serif;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  vertical-align: top;
+  display: inline-block; }
+
 a {
   text-decoration: none;
   padding: 15px;

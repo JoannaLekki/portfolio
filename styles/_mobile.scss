@@ -165,8 +165,7 @@
 
   .images {
     margin: auto;
-    border-bottom: solid 1px #c0c0c0;
-    padding-bottom: 15%;
+    padding-bottom: 5%;
 
     h2 {
       padding-top: 10vh;
@@ -182,7 +181,6 @@
       font: 100 12px 'Lato', sans-serif;
       color: #b3b3b3;
       vertical-align: top;
-      display: none;
       margin: 10px;
     }
     div {
@@ -194,8 +192,14 @@
     a {
       padding: 0;
     }
-    a:hover + span {
-      display: inline-block;
+  }
+  .project_next {
+    text-align: right;
+    margin: 2% 10% 0 0;
+
+    a:hover,
+    h3:hover {
+      color: #00FFD4;
     }
   }
 
