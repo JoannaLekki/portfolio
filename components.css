@@ -50,9 +50,14 @@ a:hover img {
   opacity: 0.9; }
 
 p {
-  font: 100 13px/1.5 'Lato', sans-serif;
-  letter-spacing: 2px;
+  font: 100 14px/1.5 'Lato', sans-serif;
   color: #666;
   padding-bottom: 15px;
   vertical-align: top;
   display: inline-block; }
+
+li {
+  font: 100 13px/1.5 'Lato', sans-serif;
+  color: #666;
+  padding-bottom: 5px;
+  vertical-align: top; }
