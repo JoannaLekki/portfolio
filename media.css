@@ -503,8 +503,9 @@ li {
 
 .project_next {
   text-align: right;
-  margin: 2% 10% 5% 65%;
-  border: solid 1px #484cff; }
+  margin: 2% 10% 5%;
+  border: solid 1px #484cff;
+  float: right; }
   .project_next h3 {
     color: #484cff; }
   .project_next h3:hover {
