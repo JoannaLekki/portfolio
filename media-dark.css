@@ -20,26 +20,24 @@
   height: 100vh; }
 
 h2 {
-  font: normal 40px 'Lato', sans-serif;
-  color: #333333;
+  color: #666;
   text-transform: uppercase;
   margin-bottom: 10px;
-  letter-spacing: 12px;
   vertical-align: top;
   display: inline-block; }
 
 h3 {
-  font: normal 16px 'Lato', sans-serif;
-  color: #333333;
+  font: bold 16px 'Lato', sans-serif;
+  color: #666;
   text-transform: uppercase;
-  letter-spacing: 12px;
+  letter-spacing: 5px;
   vertical-align: top;
   display: inline-block; }
 
 a {
   text-decoration: none;
   padding: 15px;
-  color: #222; }
+  color: #666; }
 
 a:hover h2,
 a:hover p,
@@ -50,7 +48,7 @@ a:hover img {
   opacity: 0.9; }
 
 p {
-  font: 100 14px/1.5 'Lato', sans-serif;
+  font: 100 14px/1.8 'Lato', sans-serif;
   color: #666;
   padding-bottom: 15px;
   vertical-align: top;

@@ -1,7 +1,14 @@
 @import "components.scss";
 @import 'https://fonts.googleapis.com/css?family=Lato';
-@import "mobile.scss";
 @import "tablet.scss";
+@import "mobile.scss";
+//
+//@media (max-device-width:699px) {
+//  img[data-src-699px] {
+//    content: attr(data-src-699px, url);
+//  }
+//}
+
 
 @media only screen and (min-width: 1275px) {
 
@@ -19,8 +26,8 @@
 
     span {
       text-align: right;
-      font: bold 14px 'Lato', sans-serif;
-      color: #a9a9a9;
+      font: 300 14px 'Lato', sans-serif;
+      color: #666;
       vertical-align: top;
       margin: 0 auto;
       padding-right: 2px;
@@ -30,29 +37,41 @@
       color: #00FFD4;
     }
   }
-
-  .start {
+ .start {
+   //margin-bottom: 1%;
+ }
+  .hero {
     text-align: center;
-    padding: 30vh 0;
-    background-color: #484cff;
-    margin: 5%;
-
+    //padding: 5vh 0;
+    //margin: 5%;
+    width: 100%;
+  }
     h1 {
       font-family: 'Lato', sans-serif;
       font-weight: 900;
-      font-size: 60px;
-      color: #fff;
-      margin: 20px;
+      font-size: 40px;
+      color: #484CFF;
       letter-spacing: 10px;
       text-transform: uppercase;
+      text-align: center;
     }
-    h3 {
-      font: 100 20px 'Lato', sans-serif;
-      color: #fff;
-      text-transform: uppercase;
-      letter-spacing: 12px;
-    }
+  //  h3 {
+  //    font: 100 20px 'Lato', sans-serif;
+  //    color: #666;
+  //    text-transform: uppercase;
+  //    letter-spacing: 12px;
+  //}
+
+  h2 {
+    font: bold 40px 'Lato', sans-serif;
+    color: #666;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 12px;
+    vertical-align: top;
+    display:inline-block;
   }
+
 
   .gallery {
     width: 60%;
@@ -114,13 +133,14 @@
   .contact {
     text-align: center;
     padding-bottom: 15%;
-    border-top: solid 1px #c0c0c0;
+    border-top: solid 1px #00FFD4;
+    border-bottom: solid 1px #00FFD4;
     padding-top: 25vh;
     //border: solid 1px #484cff;
 
     span {
       font: 100 14px 'Lato', sans-serif;
-      color: #333;
+      color: #666;
       display: block;
       vertical-align: top;
       margin: 10px;
@@ -131,7 +151,7 @@
   .prev {
     background-color: #fff;
     padding: 15px;
-    color: #000;
+    color: #666;
     text-decoration: none;
     font: 100 15px/1.5 'Lato', sans-serif;
     letter-spacing: 2px;
@@ -179,7 +199,6 @@
 
     h2 {
       padding-top: 10vh;
-      width: 50%;
     }
 
     p {
@@ -209,12 +228,14 @@
 
 .project_next {
   text-align: right;
-  margin: 2% 10% 5%;
-  border: solid 1px #484cff;
+  margin: 2% 10% 5% 5%;
+  border: solid 3px #00FFD4;
   float:right;
 
+
     h3 {
-      color: #484cff;
+      color: #666;
+      letter-spacing: 12px;
     }
 
   h3:hover {
@@ -223,16 +244,12 @@
 }
   .contact {
     text-align: center;
-    margin: 5%;
+    margin: 10%;
     span {
       font: 100 14px 'Lato', sans-serif;
-      color: #000000;
+      color: #666;
       display: block;
       vertical-align: top;
       margin: 10px;
     }
-    h2{
-      color: #000000;
-    }
-
   }

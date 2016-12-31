@@ -3,43 +3,36 @@
   nav {
     margin: 0 auto;
     display: inline-block;
-    margin-left: 15px;
     width: 100%;
-    top: 15px;
+    position: fixed;
+    padding-top: 1%;
+    top:0%;
+    left: 1%;
+    height: 5%;
+    background-color: #fff;
+
+
     span {
       text-align: right;
-      font: normal 14px 'Lato', sans-serif;
-      color: #333;
+      font: 300 14px 'Lato', sans-serif;
+      color: #666;
       vertical-align: top;
       margin: 0 auto;
-      padding-right: 20px;
+      padding-right: 2px;
+      padding-top: 15px;
     }
     span:hover {
       color: #00FFD4;
     }
   }
-
   .start {
+    //margin-bottom: 1%;
+  }
+  .hero {
     text-align: center;
-    padding: 30vh 0;
-    background-color: #484cff;
-    margin: 5%;
-
-    h1 {
-      font-family: 'Lato', sans-serif;
-      font-weight: 900;
-      font-size: 40px;
-      color: #fff;
-      margin: 20px;
-      letter-spacing: 10px;
-      text-transform: uppercase;
-    }
-    h3 {
-      font: 100 20px 'Lato', sans-serif;
-      color: #fff;
-      text-transform: uppercase;
-      letter-spacing: 12px;
-    }
+    //padding: 5vh 0;
+    //margin: 5%;
+    width: 100%;
   }
 
   .gallery {
@@ -200,7 +193,7 @@
   }
   .project_next {
     text-align: right;
-    margin: 2% 10% 0 0;
+    margin: 2% 10% 5% 5%;
 
     a:hover,
     h3:hover {
@@ -210,7 +203,7 @@
 
   .contact {
     text-align: center;
-    margin: 5%;
+    margin: 10% 5% 5% 5%;
     span {
       font: 100 14px 'Lato', sans-serif;
       color: #333;
