@@ -48,6 +48,24 @@ a:hover {
 a:hover img {
   opacity: 0.9; }
 
+@media only screen and (min-width: 1275px) {
+  .mobile-only {
+    display: none; }
+  .tablet-only {
+    display: none; } }
+
+@media only screen and (max-width: 1274px) and (min-width: 700px) {
+  .desktop-only {
+    display: none; }
+  .mobile-only {
+    display: none; } }
+
+@media only screen and (max-width: 699px) {
+  .desktop-only {
+    display: none; }
+  .tablet-only {
+    display: none; } }
+
 p {
   font: 100 14px/1.8 'Lato', sans-serif;
   color: #666;
@@ -98,10 +116,10 @@ li {
     .gallery .project_1 div {
       display: inline-block; }
     .gallery .project_1 .right {
-      width: 100%;
+      width: 100% !important;
       margin: auto; }
     .gallery .project_1 .left {
-      width: 100%;
+      width: 100% !important;
       margin: auto; }
   .project_2 .teaser {
     display: flex; }
@@ -112,9 +130,9 @@ li {
   .project_2 div {
     display: inline-block; }
   .project_2 .right {
-    width: 100%; }
+    width: 100% !important; }
   .project_2 .left {
-    width: 100%; }
+    width: 100% !important; }
   h2 {
     font: normal 26px 'Lato', sans-serif;
     letter-spacing: 6px; }

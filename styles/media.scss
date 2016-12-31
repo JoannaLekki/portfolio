@@ -9,7 +9,6 @@
 //  }
 //}
 
-
 @media only screen and (min-width: 1275px) {
 
   nav {
@@ -18,11 +17,10 @@
     width: 100%;
     position: fixed;
     padding-top: 1%;
-    top:0%;
+    top: 0%;
     left: 1%;
     height: 5%;
     background-color: #fff;
-
 
     span {
       text-align: right;
@@ -37,24 +35,24 @@
       color: #00FFD4;
     }
   }
- .start {
-   //margin-bottom: 1%;
- }
+  .start {
+    //margin-bottom: 1%;
+  }
   .hero {
     text-align: center;
     //padding: 5vh 0;
     //margin: 5%;
     width: 100%;
   }
-    h1 {
-      font-family: 'Lato', sans-serif;
-      font-weight: 900;
-      font-size: 40px;
-      color: #484CFF;
-      letter-spacing: 10px;
-      text-transform: uppercase;
-      text-align: center;
-    }
+  h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: #484CFF;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+  }
   //  h3 {
   //    font: 100 20px 'Lato', sans-serif;
   //    color: #666;
@@ -212,33 +210,33 @@
     }
     //a:hover + span {
     //  display: inline-block;
-    }
   }
+}
 
 .project_next {
   text-align: right;
   margin: 2% 10% 5% 5%;
   border: solid 3px #00FFD4;
-  float:right;
+  float: right;
 
-
-    h3 {
-      color: #666;
-      letter-spacing: 12px;
-    }
+  h3 {
+    color: #666;
+    letter-spacing: 12px;
+  }
 
   h3:hover {
-    color:#00FFD4;
+    color: #00FFD4;
   }
 }
-  .contact {
-    text-align: center;
-    margin: 10%;
-    span {
-      font: 100 14px 'Lato', sans-serif;
-      color: #666;
-      display: block;
-      vertical-align: top;
-      margin: 10px;
-    }
+
+.contact {
+  text-align: center;
+  margin: 10%;
+  span {
+    font: 100 14px 'Lato', sans-serif;
+    color: #666;
+    display: block;
+    vertical-align: top;
+    margin: 10px;
   }
+}

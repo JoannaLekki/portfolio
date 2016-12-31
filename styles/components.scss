@@ -59,6 +59,35 @@ a:hover img{
   opacity: 0.9;
 }
 
+@media only screen and (min-width: 1275px) {
+  .mobile-only {
+    display: none;
+  }
+
+  .tablet-only {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1274px) and (min-width: 700px) {
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 699px) {
+  .desktop-only {
+    display: none;
+  }
+
+  .tablet-only {
+    display: none;
+  }
+}
 
 p
   {

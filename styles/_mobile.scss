@@ -6,11 +6,10 @@
     width: 100%;
     position: fixed;
     padding-top: 1%;
-    top:0%;
+    top: 0%;
     left: 1%;
     height: 5%;
     background-color: #fff;
-
 
     span {
       text-align: right;
@@ -39,7 +38,6 @@
     width: 100%;
     margin: 0 auto;
 
-
     .project_1 {
 
       .teaser {
@@ -57,11 +55,11 @@
         display: inline-block;
       }
       .right {
-        width: 100%;
+        width: 100% !important;
         margin: auto;
       }
       .left {
-        width: 100%;
+        width: 100% !important;
         margin: auto;
       }
     }
@@ -83,13 +81,12 @@
       display: inline-block;
     }
     .right {
-      width: 100%;
+      width: 100% !important;
     }
     .left {
-      width: 100%;
+      width: 100% !important;
     }
   }
-
 
   h2 {
     font: normal 26px 'Lato', sans-serif;
@@ -98,7 +95,6 @@
   p {
     letter-spacing: 1px;
   }
-
 
   .contact {
     text-align: center;
