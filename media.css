@@ -61,6 +61,145 @@ li {
   padding-bottom: 5px;
   vertical-align: top; }
 
+@media only screen and (max-width: 699px) {
+  nav {
+    margin: 0 auto;
+    display: inline-block;
+    width: 100%;
+    position: fixed;
+    padding-top: 1%;
+    top: 0%;
+    left: 1%;
+    height: 5%;
+    background-color: #fff; }
+    nav span {
+      text-align: right;
+      font: 300 14px 'Lato', sans-serif;
+      color: #666;
+      vertical-align: top;
+      margin: 0 auto;
+      padding-right: 2px;
+      padding-top: 15px; }
+    nav span:hover {
+      color: #00FFD4; }
+  .hero {
+    text-align: center;
+    width: 100%; }
+  .gallery {
+    width: 100%;
+    margin: 0 auto; }
+    .gallery .project_1 .teaser {
+      display: flex; }
+    .gallery .project_1 img {
+      width: 100%;
+      height: auto;
+      display: inline-block;
+      margin: auto; }
+    .gallery .project_1 div {
+      display: inline-block; }
+    .gallery .project_1 .right {
+      width: 100%;
+      margin: auto; }
+    .gallery .project_1 .left {
+      width: 100%;
+      margin: auto; }
+  .project_2 .teaser {
+    display: flex; }
+  .project_2 img {
+    width: 100%;
+    height: auto;
+    display: inline-block; }
+  .project_2 div {
+    display: inline-block; }
+  .project_2 .right {
+    width: 100%; }
+  .project_2 .left {
+    width: 100%; }
+  h2 {
+    font: normal 26px 'Lato', sans-serif;
+    letter-spacing: 6px; }
+  p {
+    letter-spacing: 1px; }
+  .contact {
+    text-align: center;
+    margin: 15vh 0 20vh 0;
+    border-bottom: solid 1px #c0c0c0;
+    padding-bottom: 15vh;
+    border-top: solid 1px #c0c0c0;
+    padding-top: 15vh; }
+    .contact span {
+      font: 100 14px 'Lato', sans-serif;
+      color: #333;
+      display: block;
+      vertical-align: top;
+      margin: 10px; }
+  .next,
+  .prev {
+    background-color: #fff;
+    padding: 15px;
+    color: #000;
+    text-decoration: none;
+    font: 100 15px/1.5 'Lato', sans-serif;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 50%; }
+  .next {
+    right: 5%; }
+  .prev {
+    left: 5%; }
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px; }
+  .preview {
+    margin: 0 auto;
+    width: 70%; }
+    .preview .description {
+      font: 100 15px/1.5 'Lato', sans-serif;
+      letter-spacing: 2px;
+      color: #666;
+      padding-bottom: 15px;
+      vertical-align: top;
+      width: 50%; }
+  .img_huge {
+    width: 100%;
+    height: auto;
+    margin: auto; }
+  .images {
+    margin: auto;
+    padding-bottom: 5%; }
+    .images h2 {
+      padding-top: 10vh;
+      width: 50%; }
+    .images p {
+      width: 100%;
+      vertical-align: bottom;
+      padding-bottom: 10px; }
+    .images span {
+      font: 100 12px 'Lato', sans-serif;
+      color: #b3b3b3;
+      vertical-align: top;
+      margin: 10px; }
+    .images div {
+      padding: 20px 20px 20px 20px; }
+    .images a {
+      padding: 0; }
+  .project_next {
+    text-align: right;
+    margin: 2% 10% 5% 5%; }
+    .project_next a:hover,
+    .project_next h3:hover {
+      color: #00FFD4; }
+  .contact {
+    text-align: center;
+    margin: 0; }
+    .contact span {
+      font: 100 14px 'Lato', sans-serif;
+      color: #333;
+      display: block;
+      vertical-align: top;
+      margin: 10px; } }
+
 @media only screen and (min-width: 700px) and (max-width: 1275px) {
   nav {
     margin: 0 auto;
@@ -232,145 +371,6 @@ p {
       vertical-align: top;
       margin: 10px; }
 
-@media only screen and (max-width: 699px) {
-  nav {
-    margin: 0 auto;
-    display: inline-block;
-    width: 100%;
-    position: fixed;
-    padding-top: 1%;
-    top: 0%;
-    left: 1%;
-    height: 5%;
-    background-color: #fff; }
-    nav span {
-      text-align: right;
-      font: 300 14px 'Lato', sans-serif;
-      color: #666;
-      vertical-align: top;
-      margin: 0 auto;
-      padding-right: 2px;
-      padding-top: 15px; }
-    nav span:hover {
-      color: #00FFD4; }
-  .hero {
-    text-align: center;
-    width: 100%; }
-  .gallery {
-    width: 100%;
-    margin: 0 auto; }
-    .gallery .project_1 .teaser {
-      display: flex; }
-    .gallery .project_1 img {
-      width: 100%;
-      height: auto;
-      display: inline-block;
-      margin: auto; }
-    .gallery .project_1 div {
-      display: inline-block; }
-    .gallery .project_1 .right {
-      width: 100%;
-      margin: auto; }
-    .gallery .project_1 .left {
-      width: 100%;
-      margin: auto; }
-  .project_2 .teaser {
-    display: flex; }
-  .project_2 img {
-    width: 100%;
-    height: auto;
-    display: inline-block; }
-  .project_2 div {
-    display: inline-block; }
-  .project_2 .right {
-    width: 100%; }
-  .project_2 .left {
-    width: 100%; }
-  h2 {
-    font: normal 26px 'Lato', sans-serif;
-    letter-spacing: 6px; }
-  p {
-    letter-spacing: 1px; }
-  .contact {
-    text-align: center;
-    margin: 15vh 0 20vh 0;
-    border-bottom: solid 1px #c0c0c0;
-    padding-bottom: 15vh;
-    border-top: solid 1px #c0c0c0;
-    padding-top: 15vh; }
-    .contact span {
-      font: 100 14px 'Lato', sans-serif;
-      color: #333;
-      display: block;
-      vertical-align: top;
-      margin: 10px; }
-  .next,
-  .prev {
-    background-color: #fff;
-    padding: 15px;
-    color: #000;
-    text-decoration: none;
-    font: 100 15px/1.5 'Lato', sans-serif;
-    letter-spacing: 2px;
-    position: absolute;
-    top: 50%; }
-  .next {
-    right: 5%; }
-  .prev {
-    left: 5%; }
-  .close {
-    position: absolute;
-    top: 10px;
-    right: 10px; }
-  .preview {
-    margin: 0 auto;
-    width: 70%; }
-    .preview .description {
-      font: 100 15px/1.5 'Lato', sans-serif;
-      letter-spacing: 2px;
-      color: #666;
-      padding-bottom: 15px;
-      vertical-align: top;
-      width: 50%; }
-  .img_huge {
-    width: 100%;
-    height: auto;
-    margin: auto; }
-  .images {
-    margin: auto;
-    padding-bottom: 5%; }
-    .images h2 {
-      padding-top: 10vh;
-      width: 50%; }
-    .images p {
-      width: 100%;
-      vertical-align: bottom;
-      padding-bottom: 10px; }
-    .images span {
-      font: 100 12px 'Lato', sans-serif;
-      color: #b3b3b3;
-      vertical-align: top;
-      margin: 10px; }
-    .images div {
-      padding: 20px 20px 20px 20px; }
-    .images a {
-      padding: 0; }
-  .project_next {
-    text-align: right;
-    margin: 2% 10% 5% 5%; }
-    .project_next a:hover,
-    .project_next h3:hover {
-      color: #00FFD4; }
-  .contact {
-    text-align: center;
-    margin: 10% 5% 5% 5%; }
-    .contact span {
-      font: 100 14px 'Lato', sans-serif;
-      color: #333;
-      display: block;
-      vertical-align: top;
-      margin: 10px; } }
-
 @media only screen and (min-width: 1275px) {
   nav {
     margin: 0 auto;
@@ -403,14 +403,6 @@ p {
     letter-spacing: 10px;
     text-transform: uppercase;
     text-align: center; }
-  h2 {
-    font: bold 40px 'Lato', sans-serif;
-    color: #666;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    letter-spacing: 12px;
-    vertical-align: top;
-    display: inline-block; }
   .gallery {
     width: 60%;
     margin: 0 auto; }
