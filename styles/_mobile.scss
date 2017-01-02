@@ -5,62 +5,74 @@
     display: inline-block;
     width: 100%;
     position: fixed;
-    padding-top: 1%;
+    padding-top: 10px;
     top: 0%;
     left: 1%;
-    height: 5%;
     background-color: #fff;
+    height: 5vh;
 
     span {
       text-align: right;
-      font: 300 14px 'Lato', sans-serif;
+      font: 300 12px 'Lato', sans-serif;
       color: #666;
-      vertical-align: top;
-      margin: 0 auto;
-      padding-right: 2px;
-      padding-top: 15px;
+      vertical-align: center;
+      margin: 5px auto;
+      padding-right: 5px;
+      padding-top: 5px;
+      text-transform: uppercase;
     }
     span:hover {
       color: #00FFD4;
     }
   }
+
+  a{
+    padding:5px;
+  }
+  div{
+    padding: 0;
+  }
   .start {
-    //margin-bottom: 1%;
+  margin:auto;
   }
   .hero {
-    text-align: center;
-    //padding: 5vh 0;
-    //margin: 5%;
+    margin-top: 5vh;
     width: 100%;
   }
 
   .gallery {
+    display: block;
     width: 100%;
     margin: 0 auto;
 
+
     .project_1 {
 
+
+
       .teaser {
-        //clear: both;
+        clear: both;
         display: flex;
       }
 
       img {
         width: 100%;
         height: auto;
-        display: inline-block;
+        display: block;
         margin: auto;
       }
       div {
-        display: inline-block;
+        display: block;
       }
       .right {
-        width: 100% !important;
+        width: 100%;
         margin: auto;
+        clear: both;
       }
       .left {
-        width: 100% !important;
+        width: 100%;
         margin: auto;
+        clear: both;
       }
     }
   }
@@ -68,23 +80,21 @@
   .project_2 {
 
     .teaser {
-      //clear: both;
+      clear: both;
       display: flex;
     }
 
     img {
       width: 100%;
       height: auto;
-      display: inline-block;
     }
     div {
-      display: inline-block;
     }
     .right {
-      width: 100% !important;
+      width: 100%;
     }
     .left {
-      width: 100% !important;
+      width: 100%;
     }
   }
 
@@ -210,3 +220,6 @@
   }
 }
 
+div {
+  padding: 5px;
+}

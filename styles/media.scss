@@ -1,7 +1,7 @@
 @import "components.scss";
 @import 'https://fonts.googleapis.com/css?family=Lato';
-@import "mobile.scss";
 @import "tablet.scss";
+@import "mobile.scss";
 //
 //@media (max-device-width:699px) {
 //  img[data-src-699px] {
@@ -18,7 +18,7 @@
     position: fixed;
     padding-top: 1%;
     top: 0%;
-    left: 1%;
+    left: 0;
     height: 5%;
     background-color: #fff;
 
@@ -28,7 +28,7 @@
       color: #666;
       vertical-align: top;
       margin: 0 auto;
-      padding-right: 2px;
+      padding-right: 0px;
       padding-top: 15px;
     }
     span:hover {
