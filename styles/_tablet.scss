@@ -10,11 +10,10 @@
     width: 100%;
     position: fixed;
     padding-top: 1%;
-    top:0%;
-    left: 1%;
-    height: 2%;
+    top: 0;
+    left: 0;
+    height: 5%;
     background-color: #fff;
-
 
     span {
       text-align: right;
@@ -22,38 +21,11 @@
       color: #666;
       vertical-align: top;
       margin: 0 auto;
-      padding-right: 2px;
+      padding: 0 15px;
       padding-top: 15px;
     }
     span:hover {
       color: #00FFD4;
-    }
-  }
-  .start {
-    //margin-bottom: 1%;
-    magrin-top:20px;
-  }
-  .hero {
-    text-align: center;
-    //padding: 5vh 0;
-    //margin: 5%;
-    width: 100%;
-  }
-
-    h1 {
-      font-family: 'Lato', sans-serif;
-      font-weight: 900;
-      font-size: 60px;
-      color: #fff;
-      margin: 20px;
-      letter-spacing: 10px;
-      text-transform: uppercase;
-    }
-    h3 {
-      font: 100 20px 'Lato', sans-serif;
-      color: #fff;
-      text-transform: uppercase;
-      letter-spacing: 12px;
     }
   }
 
@@ -80,7 +52,7 @@
     }
     div {
       display: inline-block;
-      padding: 5vh 0
+      padding: 2vh 0
     }
     .right {
       position:relative;
@@ -150,6 +122,7 @@
   h2 {
     //font: 900 26px 'Lato', sans-serif;
     letter-spacing: 6px;
+    margin-top: 10vh;
   }
   p {
     letter-spacing: 1px;
@@ -210,6 +183,10 @@
     }
   }
 
+.gallery_sub {
+  width: 80%;
+  margin: 0 auto;
+}
   .img_huge {
     width: 100%;
     height: auto;
@@ -246,6 +223,7 @@
       padding: 0;
 
     }
+  }
 
     .project_next {
       text-align: right;
@@ -258,7 +236,7 @@
     }
     .contact {
       text-align: center;
-      margin: 10% 5% 5% 5%;
+      margin: 15% 5% 5% 5%;
       span {
         font: 100 14px 'Lato', sans-serif;
         color: #333;

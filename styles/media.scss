@@ -170,9 +170,10 @@
   .contact {
     text-align: center;
     padding-bottom: 15%;
-    border-top: solid 2px #484CFF;
-    border-bottom: solid 2px #484CFF;
+    border-top: solid 1px #c0c0c0;
+    border-bottom: solid 1px #c0c0c0;
     padding-top: 25vh;
+    margin:10vh 0;
     //border: solid 1px #484cff;
 
     span {
@@ -269,23 +270,26 @@
 
 .project_next {
   text-align: right;
-  margin: 2% 10% 5% 5%;
-  border: solid 3px #00FFD4;
+  margin: -2% 10% 5% 5%;
+  border-bottom: solid 2px #484CFF;
   float: right;
 
   h3 {
-    color: #666;
-    letter-spacing: 12px;
+    color: #484CFF;
+    letter-spacing: 6px;
   }
 
   h3:hover {
     color: #00FFD4;
   }
 }
+.project_next:hover{
+  border-bottom: solid 2px #00FFD4;
+
+}
 
 .contact {
   text-align: center;
-  margin: 10%;
   span {
     font: 100 14px 'Lato', sans-serif;
     color: #666;
