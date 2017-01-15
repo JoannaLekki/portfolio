@@ -9,7 +9,7 @@
 //  }
 //}
 
-@media only screen and (min-width: 1275px) {
+@media only screen and (min-width: 1101px) {
 
   nav {
     margin: 0 auto;
@@ -17,7 +17,7 @@
     width: 100%;
     position: fixed;
     padding-top: 1%;
-    top: 0%;
+    top: 0;
     left: 0;
     height: 5%;
     background-color: #fff;
@@ -28,7 +28,7 @@
       color: #666;
       vertical-align: top;
       margin: 0 auto;
-      padding-right: 0px;
+      padding: 0 15px;
       padding-top: 15px;
     }
     span:hover {
@@ -40,7 +40,7 @@
   }
   .hero {
     text-align: center;
-    //padding: 5vh 0;
+    padding: 5vh 0;
     //margin: 5%;
     width: 100%;
   }
@@ -60,8 +60,27 @@
   //    letter-spacing: 12px;
   //}
 
-  .gallery {
+  h2 {
+    margin-top: 15vh;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+  }
+  p
+  {
+    font: 100 16px/1.8 'Lato', sans-serif;
+    color: #666;
     width: 60%;
+    padding-bottom: 15px;
+    vertical-align: top;
+    display: block;
+  }
+
+  .gallery {
+    position: relative;
+    width: 100%;
+    padding: 0 0;
+    overflow: hidden;
     margin: 0 auto;
 
     .project_1 {
@@ -72,21 +91,36 @@
       }
 
       img {
-        width: 100%;
+        width: 90%;
         height: auto;
         display: inline-block;
+        overflow: hidden;
+
       }
       div {
         display: inline-block;
-        padding: 20px 10px
+        padding: 5vh 0
       }
       .right {
+        position:relative;
         float: right;
-        width: 40%;
+        //width: 38%;
+        margin-left: 20px;
+        left: 20%;
+        top:0;
       }
       .left {
+        position:relative;
         float: left;
-        width: 50%;
+        left:15%;
+        top:0;
+        text-align: right;
+        padding-right: 2%;
+
+        p {
+          margin: 0;
+          width:100%;
+        }
       }
     }
   }
@@ -96,32 +130,48 @@
     .teaser {
       //clear: both;
       display: flex;
+      background-color: #fafafa;
+      position: relative;
+      width: 100%;
+      padding: 0 0;
+      overflow: hidden;
+      margin: 0 auto;
     }
 
     img {
-      width: 100%;
+      width: 120%;
       height: auto;
       display: inline-block;
+      overflow: hidden;
+
     }
     div {
       display: inline-block;
-      padding: 20px 10px;
+      padding: 5vh 0
     }
     .right {
+      position:relative;
       float: right;
-      width: 50%;
+      width: 38%;
+      margin-left: 20px;
+      left: 50%;
+      top:0;
     }
     .left {
+      position:relative;
       float: left;
       width: 40%;
+      right: 50%;
+      top:0;
     }
+
   }
 
   .contact {
     text-align: center;
     padding-bottom: 15%;
-    border-top: solid 1px #00FFD4;
-    border-bottom: solid 1px #00FFD4;
+    border-top: solid 2px #484CFF;
+    border-bottom: solid 2px #484CFF;
     padding-top: 25vh;
     //border: solid 1px #484cff;
 
@@ -173,6 +223,10 @@
     }
   }
 
+  .gallery_sub {
+    width: 60%;
+    margin: 0 auto;
+  }
   .img_huge {
     width: 100%;
     height: auto;
@@ -185,7 +239,7 @@
     padding-bottom: 5%;
 
     h2 {
-      padding-top: 10vh;
+      padding-top: 0vh;
     }
 
     p {

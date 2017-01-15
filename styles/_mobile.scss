@@ -19,6 +19,7 @@
       margin: 5px auto;
       padding-right: 5px;
       padding-top: 5px;
+      padding-left: 5px;
       text-transform: uppercase;
     }
     span:hover {
@@ -32,75 +33,75 @@
   div{
     padding: 0;
   }
-  .start {
-  margin:auto;
-  }
   .hero {
     margin-top: 5vh;
     width: 100%;
   }
 
   .gallery {
-    display: block;
     width: 100%;
+    padding: 0 0;
+    overflow: hidden;
     margin: 0 auto;
 
-
-    .project_1 {
-
-
+    .project_1,
+    .project_2{
 
       .teaser {
-        clear: both;
-        display: flex;
+        //clear: both;
+        //display: flex;
+        display: block;
+        margin: 0 auto;
       }
 
       img {
-        width: 100%;
+        width: 90%;
         height: auto;
         display: block;
-        margin: auto;
+        overflow: auto;
+        padding: 10px 20px 0 20px;
+        margin:0 auto;
+
       }
       div {
-        display: block;
+        display: inline-block;
+        padding: 0 0
       }
       .right {
+        top: auto;
+        right: auto;
+        left: 0%;
+        bottom: 0;
+        margin:0;
+        padding: 0;
         width: 100%;
-        margin: auto;
-        clear: both;
+        text-align: left;
+
       }
       .left {
+        top: auto;
+        right: auto;
+        left: 0%;
+        bottom: 0;
         width: 100%;
-        margin: auto;
-        clear: both;
+        height: auto;
+        overflow: auto;
+        text-align: left;
+
+
+        p {
+          margin: 0;
+          width:100%;
+        }
       }
     }
   }
 
-  .project_2 {
-
-    .teaser {
-      clear: both;
-      display: flex;
-    }
-
-    img {
-      width: 100%;
-      height: auto;
-    }
-    div {
-    }
-    .right {
-      width: 100%;
-    }
-    .left {
-      width: 100%;
-    }
-  }
 
   h2 {
-    font: normal 26px 'Lato', sans-serif;
+    font: 900 26px 'Lato', sans-serif;
     letter-spacing: 6px;
+    margin-top: 10px;
   }
   p {
     letter-spacing: 1px;

@@ -26,11 +26,12 @@
 
 
 h2 {
+  font: bold 40px 'Lato', sans-serif;
   color: #666;
   text-transform: uppercase;
   margin-bottom: 10px;
   vertical-align: top;
-  display:inline-block;
+  display:block;
   }
 
 h3 {
@@ -45,64 +46,106 @@ h3 {
 
 a {
   text-decoration: none;
-  padding: 15px;
+  padding: 10px 0;
   color: #666;
 }
 
-a:hover h2,
-a:hover p,
-a:hover  {
-  color: #00FFD4;
-}
-
-a:hover img{
-  opacity: 0.9;
-}
-
-@media only screen and (min-width: 1275px) {
-  .mobile-only {
-    display: none;
-  }
-
-  .tablet-only {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 1274px) and (min-width: 700px) {
-  .desktop-only {
-    display: none;
-  }
-
-  .mobile-only {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 699px) {
-  .desktop-only {
-    display: none;
-  }
-
-  .tablet-only {
-    display: none;
-  }
-}
-
 p
-  {
-  font: 100 14px/1.8 'Lato', sans-serif;
+{
+  font: 100 16px/1.8 'Lato', sans-serif;
   color: #666;
   padding-bottom: 15px;
   vertical-align: top;
   display: inline-block;
 }
+//a:hover h2,
+//a:hover p,
+//a:hover  {
+//  color: #00FFD4;
+//}
+//
+//a:hover img{
+//  opacity: 0.9;
+//}
 
-li {
-  font: 100 13px/1.5 'Lato', sans-serif;
-  color: #666;
-  padding-bottom: 5px;
-  vertical-align: top;
+
+@media only screen and (min-width: 1101px) {
+  .mobile-only {
+    display: none;
+  }
+
+  .tablet-only {
+    display: none;
+  }
+
+  .check_link {
+    color: #484cff;
+    font: 900 20px 'Lato', sans-serif;
+    border-bottom: solid 3px #484cff ;
+  }
+  .check_link:hover {
+    color: #00FFD4;
+    border-bottom: solid 3px #00FFD4;
+  }
 }
+
+@media only screen and (max-width: 1100px) and (min-width: 700px) {
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: none;
+  }
+
+  .check_link {
+    color: #484cff;
+    font: 900 16px 'Lato', sans-serif;
+    border-bottom: solid 3px #484cff;
+  }
+  .check_link:hover {
+    color: #00FFD4;
+    border-bottom: solid 3px #00FFD4;
+  }
+  h2 {
+    font: bold 30px 'Lato', sans-serif;
+  }
+  p {
+    font: 100 14px/1.8 'Lato', sans-serif;
+    width: 100%;
+  }
+}
+
+  @media only screen and (max-width: 699px) {
+
+    .desktop-only {
+      display: none;
+    }
+
+    .tablet-only {
+      display: none;
+    }
+
+    .check_link {
+      color: #484cff;
+      font: 900 13px 'Lato', sans-serif;
+      border-bottom: solid 3px #484cff;
+    }
+    .check_link:hover {
+      color: #00FFD4;
+      border-bottom: solid 3px #00FFD4;
+    }
+    h2 {
+      font: bold 30px 'Lato', sans-serif;
+    }
+  }
+
+  li {
+    font: 100 13px/1.5 'Lato', sans-serif;
+    color: #666;
+    padding-bottom: 5px;
+    vertical-align: top;
+  }
+
 
 

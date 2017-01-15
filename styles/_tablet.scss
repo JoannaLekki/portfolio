@@ -1,5 +1,9 @@
-@media only screen and (min-width: 700px) and (max-width: 1275px) {
+@media only screen and (min-width: 700px) and (max-width: 1100px) {
 
+  .hero {
+    padding: 5vh 0;
+    //margin: 5%;
+  }
   nav {
     margin: 0 auto;
     display: inline-block;
@@ -8,7 +12,7 @@
     padding-top: 1%;
     top:0%;
     left: 1%;
-    height: 5%;
+    height: 2%;
     background-color: #fff;
 
 
@@ -27,6 +31,7 @@
   }
   .start {
     //margin-bottom: 1%;
+    magrin-top:20px;
   }
   .hero {
     text-align: center;
@@ -52,38 +57,14 @@
     }
   }
 
-  .gallery {
-    width: 95%;
-    margin: 0 auto;
+.gallery {
+  position: relative;
+  width: 100%;
+  padding: 0 0;
+  overflow: hidden;
+  margin: 0 auto;
 
-    .project_1 {
-
-      .teaser {
-        //clear: both;
-        display: flex;
-      }
-
-      img {
-        width: 100%;
-        height: auto;
-        display: inline-block;
-      }
-      div {
-        display: inline-block;
-        padding: 10px;
-      }
-      .right {
-        float: right;
-        width: 50%;
-      }
-      .left {
-        float: left;
-        width: 35%;
-      }
-    }
-  }
-
-  .project_2 {
+  .project_1 {
 
     .teaser {
       //clear: both;
@@ -94,23 +75,80 @@
       width: 100%;
       height: auto;
       display: inline-block;
+      overflow: hidden;
+
     }
     div {
       display: inline-block;
-      padding: 10px;
+      padding: 5vh 0
     }
     .right {
+      position:relative;
       float: right;
-      width: 35%;
+      //width: 38%;
+      margin-left: 20px;
+      left: 20%;
+      top:0;
     }
     .left {
-      width: 50%;
+      position:relative;
       float: left;
+      left:15%;
+      top:0;
+      text-align: right;
+      padding-right: 2%;
+
+      p {
+        margin: 0;
+        width:100%;
+      }
     }
   }
+}
+.project_2 {
+
+  .teaser {
+    //clear: both;
+    display: flex;
+    background-color: #fafafa;
+    position: relative;
+    width: 100%;
+    padding: 0 0;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  img {
+    width: 130%;
+    height: auto;
+    display: inline-block;
+    overflow: hidden;
+
+  }
+  div {
+    display: inline-block;
+    padding: 5vh 0
+  }
+  .right {
+    position:relative;
+    float: right;
+    width: 38%;
+    margin-left: 20px;
+    left: 50%;
+    top:0;
+  }
+  .left {
+    position:relative;
+    float: left;
+    width: 40%;
+    right: 50%;
+    top:0;
+  }
+
+}
 
   h2 {
-    font: normal 26px 'Lato', sans-serif;
+    //font: 900 26px 'Lato', sans-serif;
     letter-spacing: 6px;
   }
   p {

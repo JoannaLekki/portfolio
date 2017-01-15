@@ -21,11 +21,12 @@
   height: 100vh; }
 
 h2 {
+  font: bold 40px 'Lato', sans-serif;
   color: #666;
   text-transform: uppercase;
   margin-bottom: 10px;
   vertical-align: top;
-  display: inline-block; }
+  display: block; }
 
 h3 {
   font: bold 16px 'Lato', sans-serif;
@@ -37,41 +38,61 @@ h3 {
 
 a {
   text-decoration: none;
-  padding: 15px;
+  padding: 10px 0;
   color: #666; }
 
-a:hover h2,
-a:hover p,
-a:hover {
-  color: #00FFD4; }
+p {
+  font: 100 16px/1.8 'Lato', sans-serif;
+  color: #666;
+  padding-bottom: 15px;
+  vertical-align: top;
+  display: inline-block; }
 
-a:hover img {
-  opacity: 0.9; }
-
-@media only screen and (min-width: 1275px) {
+@media only screen and (min-width: 1101px) {
   .mobile-only {
     display: none; }
   .tablet-only {
-    display: none; } }
+    display: none; }
+  .check_link {
+    color: #484cff;
+    font: 900 20px 'Lato', sans-serif;
+    border-bottom: solid 3px #484cff; }
+  .check_link:hover {
+    color: #00FFD4;
+    border-bottom: solid 3px #00FFD4; } }
 
-@media only screen and (max-width: 1274px) and (min-width: 700px) {
+@media only screen and (max-width: 1100px) and (min-width: 700px) {
   .desktop-only {
     display: none; }
   .mobile-only {
-    display: none; } }
+    display: none; }
+  .check_link {
+    color: #484cff;
+    font: 900 16px 'Lato', sans-serif;
+    border-bottom: solid 3px #484cff; }
+  .check_link:hover {
+    color: #00FFD4;
+    border-bottom: solid 3px #00FFD4; }
+  h2 {
+    font: bold 30px 'Lato', sans-serif; }
+  p {
+    font: 100 14px/1.8 'Lato', sans-serif;
+    width: 100%; } }
 
 @media only screen and (max-width: 699px) {
   .desktop-only {
     display: none; }
   .tablet-only {
-    display: none; } }
-
-p {
-  font: 100 14px/1.8 'Lato', sans-serif;
-  color: #666;
-  padding-bottom: 15px;
-  vertical-align: top;
-  display: inline-block; }
+    display: none; }
+  .check_link {
+    color: #484cff;
+    font: 900 13px 'Lato', sans-serif;
+    border-bottom: solid 3px #484cff; }
+  .check_link:hover {
+    color: #00FFD4;
+    border-bottom: solid 3px #00FFD4; }
+  h2 {
+    font: bold 30px 'Lato', sans-serif; } }
 
 li {
   font: 100 13px/1.5 'Lato', sans-serif;
@@ -79,7 +100,9 @@ li {
   padding-bottom: 5px;
   vertical-align: top; }
 
-@media only screen and (min-width: 700px) and (max-width: 1275px) {
+@media only screen and (min-width: 700px) and (max-width: 1100px) {
+  .hero {
+    padding: 5vh 0; }
   nav {
     margin: 0 auto;
     display: inline-block;
@@ -88,7 +111,7 @@ li {
     padding-top: 1%;
     top: 0%;
     left: 1%;
-    height: 5%;
+    height: 2%;
     background-color: #fff; }
     nav span {
       text-align: right;
@@ -100,6 +123,8 @@ li {
       padding-top: 15px; }
     nav span:hover {
       color: #00FFD4; }
+  .start {
+    magrin-top: 20px; }
   .hero {
     text-align: center;
     width: 100%; }
@@ -118,46 +143,73 @@ li {
     letter-spacing: 12px; } }
 
 .gallery {
-  width: 95%;
+  position: relative;
+  width: 100%;
+  padding: 0 0;
+  overflow: hidden;
   margin: 0 auto; }
   .gallery .project_1 .teaser {
     display: flex; }
   .gallery .project_1 img {
     width: 100%;
     height: auto;
-    display: inline-block; }
+    display: inline-block;
+    overflow: hidden; }
   .gallery .project_1 div {
     display: inline-block;
-    padding: 10px; }
+    padding: 5vh 0; }
   .gallery .project_1 .right {
+    position: relative;
     float: right;
-    width: 50%; }
+    margin-left: 20px;
+    left: 20%;
+    top: 0; }
   .gallery .project_1 .left {
+    position: relative;
     float: left;
-    width: 35%; }
+    left: 15%;
+    top: 0;
+    text-align: right;
+    padding-right: 2%; }
+    .gallery .project_1 .left p {
+      margin: 0;
+      width: 100%; }
 
 .project_2 .teaser {
-  display: flex; }
+  display: flex;
+  background-color: #fafafa;
+  position: relative;
+  width: 100%;
+  padding: 0 0;
+  overflow: hidden;
+  margin: 0 auto; }
 
 .project_2 img {
-  width: 100%;
+  width: 130%;
   height: auto;
-  display: inline-block; }
+  display: inline-block;
+  overflow: hidden; }
 
 .project_2 div {
   display: inline-block;
-  padding: 10px; }
+  padding: 5vh 0; }
 
 .project_2 .right {
+  position: relative;
   float: right;
-  width: 35%; }
+  width: 38%;
+  margin-left: 20px;
+  left: 50%;
+  top: 0; }
 
 .project_2 .left {
-  width: 50%;
-  float: left; }
+  position: relative;
+  float: left;
+  width: 40%;
+  right: 50%;
+  top: 0; }
 
 h2 {
-  font: normal 26px 'Lato', sans-serif;
   letter-spacing: 6px; }
 
 p {
@@ -269,6 +321,7 @@ p {
       margin: 5px auto;
       padding-right: 5px;
       padding-top: 5px;
+      padding-left: 5px;
       text-transform: uppercase; }
     nav span:hover {
       color: #00FFD4; }
@@ -276,46 +329,58 @@ p {
     padding: 5px; }
   div {
     padding: 0; }
-  .start {
-    margin: auto; }
   .hero {
     margin-top: 5vh;
     width: 100%; }
   .gallery {
-    display: block;
     width: 100%;
+    padding: 0 0;
+    overflow: hidden;
     margin: 0 auto; }
-    .gallery .project_1 .teaser {
-      clear: both;
-      display: flex; }
-    .gallery .project_1 img {
-      width: 100%;
+    .gallery .project_1 .teaser,
+    .gallery .project_2 .teaser {
+      display: block;
+      margin: 0 auto; }
+    .gallery .project_1 img,
+    .gallery .project_2 img {
+      width: 90%;
       height: auto;
       display: block;
-      margin: auto; }
-    .gallery .project_1 div {
-      display: block; }
-    .gallery .project_1 .right {
+      overflow: auto;
+      padding: 10px 20px 0 20px;
+      margin: 0 auto; }
+    .gallery .project_1 div,
+    .gallery .project_2 div {
+      display: inline-block;
+      padding: 0 0; }
+    .gallery .project_1 .right,
+    .gallery .project_2 .right {
+      top: auto;
+      right: auto;
+      left: 0%;
+      bottom: 0;
+      margin: 0;
+      padding: 0;
       width: 100%;
-      margin: auto;
-      clear: both; }
-    .gallery .project_1 .left {
+      text-align: left; }
+    .gallery .project_1 .left,
+    .gallery .project_2 .left {
+      top: auto;
+      right: auto;
+      left: 0%;
+      bottom: 0;
       width: 100%;
-      margin: auto;
-      clear: both; }
-  .project_2 .teaser {
-    clear: both;
-    display: flex; }
-  .project_2 img {
-    width: 100%;
-    height: auto; }
-  .project_2 .right {
-    width: 100%; }
-  .project_2 .left {
-    width: 100%; }
+      height: auto;
+      overflow: auto;
+      text-align: left; }
+      .gallery .project_1 .left p,
+      .gallery .project_2 .left p {
+        margin: 0;
+        width: 100%; }
   h2 {
-    font: normal 26px 'Lato', sans-serif;
-    letter-spacing: 6px; }
+    font: 900 26px 'Lato', sans-serif;
+    letter-spacing: 6px;
+    margin-top: 10px; }
   p {
     letter-spacing: 1px; }
   .contact {
@@ -401,14 +466,14 @@ p {
 div {
   padding: 5px; }
 
-@media only screen and (min-width: 1275px) {
+@media only screen and (min-width: 1101px) {
   nav {
     margin: 0 auto;
     display: inline-block;
     width: 100%;
     position: fixed;
     padding-top: 1%;
-    top: 0%;
+    top: 0;
     left: 0;
     height: 5%;
     background-color: #fff; }
@@ -418,12 +483,13 @@ div {
       color: #666;
       vertical-align: top;
       margin: 0 auto;
-      padding-right: 0px;
+      padding: 0 15px;
       padding-top: 15px; }
     nav span:hover {
       color: #00FFD4; }
   .hero {
     text-align: center;
+    padding: 5vh 0;
     width: 100%; }
   h1 {
     font-family: 'Lato', sans-serif;
@@ -433,44 +499,84 @@ div {
     letter-spacing: 10px;
     text-transform: uppercase;
     text-align: center; }
-  .gallery {
+  h2 {
+    margin-top: 15vh;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 50px; }
+  p {
+    font: 100 16px/1.8 'Lato', sans-serif;
+    color: #666;
     width: 60%;
+    padding-bottom: 15px;
+    vertical-align: top;
+    display: block; }
+  .gallery {
+    position: relative;
+    width: 100%;
+    padding: 0 0;
+    overflow: hidden;
     margin: 0 auto; }
     .gallery .project_1 .teaser {
       display: flex; }
     .gallery .project_1 img {
-      width: 100%;
+      width: 90%;
       height: auto;
-      display: inline-block; }
+      display: inline-block;
+      overflow: hidden; }
     .gallery .project_1 div {
       display: inline-block;
-      padding: 20px 10px; }
+      padding: 5vh 0; }
     .gallery .project_1 .right {
+      position: relative;
       float: right;
-      width: 40%; }
+      margin-left: 20px;
+      left: 20%;
+      top: 0; }
     .gallery .project_1 .left {
+      position: relative;
       float: left;
-      width: 50%; }
+      left: 15%;
+      top: 0;
+      text-align: right;
+      padding-right: 2%; }
+      .gallery .project_1 .left p {
+        margin: 0;
+        width: 100%; }
   .project_2 .teaser {
-    display: flex; }
-  .project_2 img {
+    display: flex;
+    background-color: #fafafa;
+    position: relative;
     width: 100%;
+    padding: 0 0;
+    overflow: hidden;
+    margin: 0 auto; }
+  .project_2 img {
+    width: 120%;
     height: auto;
-    display: inline-block; }
+    display: inline-block;
+    overflow: hidden; }
   .project_2 div {
     display: inline-block;
-    padding: 20px 10px; }
+    padding: 5vh 0; }
   .project_2 .right {
+    position: relative;
     float: right;
-    width: 50%; }
+    width: 38%;
+    margin-left: 20px;
+    left: 50%;
+    top: 0; }
   .project_2 .left {
+    position: relative;
     float: left;
-    width: 40%; }
+    width: 40%;
+    right: 50%;
+    top: 0; }
   .contact {
     text-align: center;
     padding-bottom: 15%;
-    border-top: solid 1px #00FFD4;
-    border-bottom: solid 1px #00FFD4;
+    border-top: solid 2px #484CFF;
+    border-bottom: solid 2px #484CFF;
     padding-top: 25vh; }
     .contact span {
       font: 100 14px 'Lato', sans-serif;
@@ -507,6 +613,9 @@ div {
       padding-bottom: 15px;
       vertical-align: top;
       width: 80%; }
+  .gallery_sub {
+    width: 60%;
+    margin: 0 auto; }
   .img_huge {
     width: 100%;
     height: auto;
@@ -516,7 +625,7 @@ div {
     margin: auto;
     padding-bottom: 5%; }
     .images h2 {
-      padding-top: 10vh; }
+      padding-top: 0vh; }
     .images p {
       width: 80%;
       vertical-align: bottom;
