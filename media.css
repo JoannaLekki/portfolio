@@ -495,19 +495,25 @@ div {
     overflow: hidden;
     margin: 0 auto; }
     .gallery .project_1 .teaser {
-      display: flex; }
+      display: flex;
+      position: relative;
+      width: 100%;
+      padding: 0 0;
+      overflow: hidden;
+      margin: 0 auto; }
     .gallery .project_1 img {
-      width: 90%;
+      width: 80%;
       height: auto;
       display: inline-block;
-      overflow: hidden; }
+      overflow: hidden;
+      margin-left: 10vh; }
     .gallery .project_1 div {
       display: inline-block;
       padding: 5vh 0; }
     .gallery .project_1 .right {
       position: relative;
       float: right;
-      margin-left: 20px;
+      margin-left: 40px;
       left: 20%;
       top: 0; }
     .gallery .project_1 .left {
@@ -520,35 +526,35 @@ div {
       .gallery .project_1 .left p {
         margin: 0;
         width: 100%; }
-  .project_2 .teaser {
-    display: flex;
-    background-color: #fafafa;
-    position: relative;
-    width: 100%;
-    padding: 0 0;
-    overflow: hidden;
-    margin: 0 auto; }
-  .project_2 img {
-    width: 120%;
-    height: auto;
-    display: inline-block;
-    overflow: hidden; }
-  .project_2 div {
-    display: inline-block;
-    padding: 5vh 0; }
-  .project_2 .right {
-    position: relative;
-    float: right;
-    width: 38%;
-    margin-left: 20px;
-    left: 50%;
-    top: 0; }
-  .project_2 .left {
-    position: relative;
-    float: left;
-    width: 40%;
-    right: 50%;
-    top: 0; }
+    .gallery .project_2 .teaser {
+      display: flex;
+      background-color: #fafafa;
+      position: relative;
+      width: 100%;
+      padding: 0 0;
+      overflow: hidden;
+      margin: 0 auto; }
+    .gallery .project_2 img {
+      width: 120%;
+      height: auto;
+      display: inline-block;
+      overflow: hidden; }
+    .gallery .project_2 div {
+      display: inline-block;
+      padding: 5vh 0; }
+    .gallery .project_2 .right {
+      position: relative;
+      float: right;
+      width: 38%;
+      margin-left: 20px;
+      left: 50%;
+      top: 0; }
+    .gallery .project_2 .left {
+      position: relative;
+      float: left;
+      width: 40%;
+      right: 50%;
+      top: 0; }
   .contact {
     text-align: center;
     padding-bottom: 15%;
